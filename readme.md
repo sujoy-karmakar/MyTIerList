@@ -1,6 +1,6 @@
 
-<!-- This is My tier list  -->
-<!-- hear are some food images link -->
+
+ Hear are some food images link --
 
 1- 
 https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Carabao_mangoes_%28Philippines%29.jpg/640px-Carabao_mangoes_%28Philippines%29.jpg
@@ -38,4 +38,5 @@ In this project I used 6 events
  6- dblclick event I use to restore the element when I double click on it
 
 
-
+deployment link of this project-
+https://my-tier-list.vercel.app/
