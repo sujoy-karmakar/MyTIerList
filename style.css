@@ -1,0 +1,119 @@
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    }
+body{
+    background: linear-gradient(to right,
+    #200122, 
+    #6f0000);
+    color:white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    margin: 10px;
+    font-family:'Edu AU VIC WA NT Hand', sans-serif;
+}
+
+.tier-list-items{
+    width: 50%;
+    padding: 2px;
+    border-radius: 5px;
+    
+    }
+
+h1, label {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+form{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+#tier, #image-item {
+    padding: 5px;
+}
+
+#tier-list-section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.tier-list{
+    border: 2px solid white;
+    display: flex;
+    height: 75px;
+  
+
+}
+input{
+    border: 2px solid rgb(202, 68, 1);
+    border-radius: 4px;
+    padding-left: 2px;
+    background-color: #fff;
+  display: flex;
+  font-size: small;
+padding: 3px;
+min-width: 22%;
+}
+button{
+    padding: 2px;
+    color: rgb(255, 81, 17);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+border: 1px solid rgb(0, 195, 255);
+}
+button:hover{
+    background-color:  rgb(0, 195, 255);
+    color: rgb(255, 255, 255);
+}
+
+
+h1 {
+    border-right: 2px solid white;
+    background-color: rgb(255, 81, 17);
+    height: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    justify-content: center;
+}
+
+#non-tier-section {
+    display: flex;
+    gap: 5px;
+}
+
+.item-container {
+    width: 70px;
+    height: 70px;
+    padding:0px 3px 2px;
+  
+}
+.item-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2px;
+    box-shadow: rgba(253, 253, 253, 0.15) 1.95px 1.95px 2.6px;
+ 
+ 
+}
+
+
+.tier-list-items {
+    min-width: 50%;
+    display: flex;
+}
+
